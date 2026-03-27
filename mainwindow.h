@@ -17,8 +17,18 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QString xml;
 
 private slots:
+    void newXML();
+    void openXML();
+    void saveXML();
+    void saveXMLAs();
+
+    void addHanzi();
+    void addWord();
+    void addPhrase();
+
     void saveToXML();
 };
 #endif // MAINWINDOW_H
